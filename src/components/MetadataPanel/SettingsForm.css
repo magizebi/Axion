@@ -1,0 +1,93 @@
+.settings-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 10px;
+  background-color: #252525;
+  color: #fff;
+}
+
+.settings-group {
+  background: #1e1e1e;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+.settings-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.radio-button {
+  position: relative;
+}
+
+.radio-button input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.radio-button label {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #0f0f0f98;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.radio-button input[type="radio"]:checked + label {
+  background-color: #396cd8;
+  border-color: #396cd8;
+}
+
+.radio-button input[type="radio"]:hover + label {
+  border-color: #396cd8;
+}
+
+.speed-options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.image-button {
+  flex: 1;
+  padding: 8px 12px;
+  background: #0f0f0f98;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s;
+}
+
+.image-button:hover {
+  border-color: #396cd8;
+}
+
+.image-button:active {
+  background: #396cd8;
+} 

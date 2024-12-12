@@ -1,0 +1,72 @@
+.metadata-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px;
+  background-color: #252525;
+  color: #fff;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.input-group label {
+  flex: 0 0 50px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 6px;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.metadata-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.metadata-grid .input-group {
+  display: flex;
+  align-items: center;
+}
+
+.metadata-grid .input-group label {
+  flex: 0 0 50px;
+}
+
+.metadata-grid .input-group input {
+  flex: 0 0 40px;
+  width: 80px;
+  min-width: 0;
+}
+
+/* 읽기 전용 인풋 스타일 */
+.readonly-input {
+  background-color: #2f2f2f !important; /* 더 밝은 회색으로 변경 */
+  border-color: #444 !important; /* 테두리도 좀 더 밝게 */
+  cursor: default !important;
+  color: #666 !important; /* 텍스트 색상을 더 흐리게 */
+  opacity: 0.8; /* 전체적인 투명도 추가 */
+}
+
+.readonly-input:hover {
+  background-color: #2f2f2f !important; /* 호버 시에도 같은 배경색 유지 */
+  border-color: #444 !important;
+}
+
+.readonly-input:focus {
+  background-color: #2f2f2f !important;
+  border-color: #444 !important;
+  outline: none;
+  box-shadow: none !important; /* 포커스 시 그림자 효과 제거 */
+} 

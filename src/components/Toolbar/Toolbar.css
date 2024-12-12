@@ -1,0 +1,59 @@
+.toolbar {
+  background-color: #252525;
+  padding: 5px;
+  border-bottom: 1px solid #333;
+}
+
+.menu-bar {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.menu-item {
+  padding: 5px 10px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background: #333;
+}
+
+.tool-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.grid-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.grid-controls select {
+  padding: 3px;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+.playback-controls {
+  display: flex;
+  gap: 5px;
+}
+
+.control-btn {
+  padding: 5px 10px;
+  background: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.control-btn:hover {
+  background: #444;
+} 
